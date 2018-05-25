@@ -70,34 +70,62 @@ ul {
 	padding-left: 100px;
 }
 
-
-/*********************** Search ***********************/
-
-.searchButtons {
-	display: flex;
-	justify-content: center;
-	margin-top: 25px;
+header:after {
+	content: "";
+	display: block;
+	clear: both;
 }
 
-.searchButtons button {
-	border-radius: 0;
-	padding:8px 14px;
-	margin: 0 5px;
-	background-color: #eee;
-	border: 0 none;
-	color: #666;
-	font-weight: normal;
+/*********************** Search Results ***********************/
+
+.wrapper {
+	width: 620px;
+	margin-left: 155px;
+}
+
+#mainResult {
+	border: 1px solid #ccc;
+	margin-top: 40px;
+	padding: 0 20px;
+}
+
+#mainResult li {
+	list-style: initial;
+	color: #000;
+	font-size: 1.3em;
+}
+
+#mainResult h2 {
+	margin: 15px 0 10px 0;
+	font-size: 1.1em;
+}
+
+.result {
+	width: 96%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.result h3 {
+	margin: 40px 0 0 0;
+	padding: 0;
+}
+
+.result p {
+	margin: 0;
+	padding: 0;
 }
 
 /*********************** Bottom Links***********************/
 
 footer {
-   position:fixed;
    left:0px;
    bottom:0px;
    height:50px;
    width:100%;
    background:#faf9f5;
+   margin-top: 40px;
+   padding-top: 20px;
 }
 
 #bottomLeftLinks {
